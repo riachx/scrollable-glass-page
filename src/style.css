@@ -1,26 +1,9 @@
 html{scroll-behavior:smooth}
-@font-face {
-  font-family: "Poppins";
-  src: url("fonts/Poppins-Thin.ttf") format("truetype"), /* Thin */
-       url("fonts/Poppins-Medium.ttf") format("truetype"), /* Medium */
-       url("fonts/Poppins-Light.ttf") format("truetype"), /* Light */
-       url("fonts/Poppins-ExtraLight.ttf") format("truetype"), /* ExtraLight */
-       url("fonts/Poppins-Bold.ttf") format("truetype"), /* Bold */
-       url("fonts/Poppins-ExtraBold.ttf") format("truetype"); /* ExtraBold */
-  font-weight: 100, 200, 300, 400, 700, 800; /* Light, Regular, Bold */
-  font-style: normal;
-}
-@font-face {
-  font-family: "PoppinsMedium";
-       src: url("fonts/Poppins-Medium.ttf") format("truetype"); /* Medium */
-  font-weight: 500;
 
-}
 canvas {
   position: fixed;
   top: 0;
   left: 0;
-  background: url("background.png") no-repeat center center fixed;
   background-size: cover;
   
 }
